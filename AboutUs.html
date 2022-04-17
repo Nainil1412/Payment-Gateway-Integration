@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" type="image/png" href="./assets/img/favicon.ico" />
+    <title>MyPay</title>
+
+    <!-- Font Awesome Icons -->
+    <link href="./assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link
+      href="./assets/css/argon-design-system.css?v=1.2.2"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="index-page">
+    <!-- Navbar -->
+    <nav
+      id="navbar-main"
+      class="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2"
+    >
+      <div class="container">
+        <a class="navbar-brand mr-lg-5" href="./index.html">
+          <img src="./assets/img/mp.png" />
+          <h4 class="container" style="font-family: cursive; font-size: 30px">
+            My Pay
+          </h4>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar_global"
+          aria-controls="navbar_global"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse my-2" id="navbar_global">
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-brand">
+                <a href="./index.html">
+                  <img src="./assets/img/mp.png" />
+                </a>
+              </div>
+              <div class="col-6 collapse-close">
+                <button
+                  type="button"
+                  class="navbar-toggler"
+                  data-toggle="collapse"
+                  data-target="#navbar_global"
+                  aria-controls="navbar_global"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav navbar-nav-hover align-items-lg-center"></ul>
+          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <li class="nav-item mx-3 my-2">
+              <a class="btn btn-outline-primary" href="index.html">
+                <span class="nav-link-inner--text mx-2">Home</span>
+              </a>
+            </li>
+            <li class="nav-item mx-3 my-2">
+              <a class="btn btn-outline-primary" href="AboutUs.html">
+                <span class="nav-link-inner--text mx-2">About US</span>
+              </a>
+            </li>
+
+            <li class="nav-item d-none d-lg-block mx-3">
+              <a
+                href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro"
+                target="_blank"
+                class="btn btn-primary btn-icon"
+              >
+                <span class="btn-inner--icon">
+                  <form>
+                    <script
+                      src="https://checkout.razorpay.com/v1/payment-button.js"
+                      data-payment_button_id="pl_JKMZrcKNcCC0ZY"
+                      async
+                    ></script>
+                  </form>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About_US -->
+    <div class="section"
+    style="background-image: url('./assets/img/ill/1.svg')"">
+    <div class="container">
+        <div class="row justify-content-center">
+          <h2 class="display-3">| <u> About Us </u> |</h2>
+          <p class="lead"><b>
+            My Pay is a non-profit organization is to empower underprivileged children, youth and women through relevant education, innovative healthcare and market-focused livelihood programmes.
+            It is to deploy best possible methodology and technology for achieving ideal SROI (social return on investment), to practice and promote good governance. To link business competitiveness of the corporate with social development initiatives; also to sensitize privileged children, youth and citizens in general to promote Civic Driven Change.
+          </p></b>
+          <h2 class="display-3">| <u> Belives </u> |</h2>
+          <p class="lead"><b>
+            We believes that unless members of the civil society are involved proactively in the process of development, sustainable change will not happen. Believing in this principle of 'Civic Driven Change', Smile Foundation sensitises the civil society in order to make them partners in its mission.
+          </p></b>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer start -->
+
+      
+    <footer class="footer has-cards">
+        <div>
+          <div class="container">
+            <hr />
+
+            <div class="col-md-6">
+              <div class="copyright">
+                &copy; 2022
+                <a href="" target="_blank">Nainil Oza | All Rights Reserved</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+    src="./assets/js/core/jquery.min.js"
+    type="text/javascript"
+  ></script>
+  <script
+    src="./assets/js/core/popper.min.js"
+    type="text/javascript"
+  ></script>
+  <script
+    src="./assets/js/core/bootstrap.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+  <script
+    src="./assets/js/plugins/nouislider.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <script
+    src="./assets/js/plugins/datetimepicker.js"
+    type="text/javascript"
+  ></script>
+  <script src="./assets/js/plugins/bootstrap-datepicker.min.js"></script>
+ 
+  <script>
+    function scrollToDownload() {
+      if ($(".section-download").length != 0) {
+        $("html, body").animate(
+          {
+            scrollTop: $(".section-download").offset().top,
+          },
+          1000
+        );
+      }
+    }
+  </script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-design-system-pro",
+      });
+  </script>
+</body>
+</html>
